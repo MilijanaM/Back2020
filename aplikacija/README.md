@@ -1,0 +1,3 @@
+# Aplikacija za supermarket
+
+Ovo je aplikacija koju koristimo za ucenje NestJS razvojnog okvira...

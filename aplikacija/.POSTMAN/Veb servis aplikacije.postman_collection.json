@@ -1,0 +1,3014 @@
+{
+	"info": {
+		"_postman_id": "5daca0eb-3fdc-4e90-9fd6-056ab55ae825",
+		"name": "Veb servis aplikacije",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Get all admins",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/admin/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get all admins",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 16:02:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[]"
+						},
+						{
+							"name": "Get all admins",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "201"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"c9-Om+9xJzAREcJdis2+O/b3X7Rfso\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 15:07:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"adminId\": 1,\n        \"username\": \"admin1\",\n        \"passwordHash\": \"hrsgrsrrxthccy\",\n        \"name\": \"Milan\",\n        \"surname\": \"Mitic\"\n    },\n    {\n        \"adminId\": 2,\n        \"username\": \"admin2\",\n        \"passwordHash\": \"khbcasbciuvic\",\n        \"name\": \"Marko\",\n        \"surname\": \"Markovic\"\n    }\n]"
+						},
+						{
+							"name": "Get all admins",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo1LCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTkwMjU5MTYwLjM5NywiaXAiOiI6OjEiLCJ1YSI6IlBvc3RtYW5SdW50aW1lLzcuMjQuMSIsImlhdCI6MTU4OTA0OTU2MH0.O1cLuaz-BMdv-TmWTtUhvi5_DiZySfUXwSph4_BIKfI",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "822"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"336-a5ZWh2ZcXg3Pi3UnjtXaJF1AMVU\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 21:09:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"adminId\": 1,\n        \"username\": \"admin1\",\n        \"passwordHash\": \"AF105A1B093BB041911DE15270D9C8F6579973C0BFABA10CF0AE3E176910FE24726227BD25B6B5E01F861A08338CD3620D1145CA177BC1810A6B57D4192EC924\",\n        \"name\": \"Milan\",\n        \"surname\": \"Mitic\"\n    },\n    {\n        \"adminId\": 2,\n        \"username\": \"admin2\",\n        \"passwordHash\": \"khbcasbciuvic\",\n        \"name\": \"Marko\",\n        \"surname\": \"Markovic\"\n    },\n    {\n        \"adminId\": 3,\n        \"username\": \"pperic\",\n        \"passwordHash\": \"A6748CE10B52373F93B31E8F1625B802B9389519F5E54533F9789930E2194C5845C783982F778E4B5D5B27C6459C88479FC9627591EBF051B1F2E6C62B1DBB90\",\n        \"name\": \"0\",\n        \"surname\": \"0\"\n    },\n    {\n        \"adminId\": 4,\n        \"username\": \"admin3\",\n        \"passwordHash\": \"asdf\",\n        \"name\": \"Milijana\",\n        \"surname\": \"Miladinovic\"\n    },\n    {\n        \"adminId\": 5,\n        \"username\": \"admin\",\n        \"passwordHash\": \"7FCF4BA391C48784EDDE599889D6E3F1E47A27DB36ECC050CC92F259BFAC38AFAD2C68A1AE804D77075E8FB722503F3ECA2B2C1006EE6F6C7B7628CB45FFFD1D\",\n        \"name\": \"0\",\n        \"surname\": \"0\"\n    }\n]"
+						},
+						{
+							"name": "Get all admins when auth is disabled",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo1LCJ1c2VybmFtZSI6ImFkbWluIiwiZXhwIjoxNTkwMjU5MTYwLjM5NywiaXAiOiI6OjEiLCJ1YSI6IlBvc3RtYW5SdW50aW1lLzcuMjQuMSIsImlhdCI6MTU4OTA0OTU2MH0.O1cLuaz-BMdv-TmWTtUhvi5_DiZySfUXwSph4_BIKfI",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1027"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"403-cUnZksMuDIk1XjxhY3AGQuCvM0I\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 10 May 2020 18:18:41 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"adminId\": 1,\n        \"username\": \"admin1\",\n        \"passwordHash\": \"AF105A1B093BB041911DE15270D9C8F6579973C0BFABA10CF0AE3E176910FE24726227BD25B6B5E01F861A08338CD3620D1145CA177BC1810A6B57D4192EC924\",\n        \"name\": \"Milan\",\n        \"surname\": \"Mitic\"\n    },\n    {\n        \"adminId\": 2,\n        \"username\": \"admin2\",\n        \"passwordHash\": \"khbcasbciuvic\",\n        \"name\": \"Marko\",\n        \"surname\": \"Markovic\"\n    },\n    {\n        \"adminId\": 3,\n        \"username\": \"pperic\",\n        \"passwordHash\": \"A6748CE10B52373F93B31E8F1625B802B9389519F5E54533F9789930E2194C5845C783982F778E4B5D5B27C6459C88479FC9627591EBF051B1F2E6C62B1DBB90\",\n        \"name\": \"0\",\n        \"surname\": \"0\"\n    },\n    {\n        \"adminId\": 4,\n        \"username\": \"admin3\",\n        \"passwordHash\": \"asdf\",\n        \"name\": \"Milijana\",\n        \"surname\": \"Miladinovic\"\n    },\n    {\n        \"adminId\": 5,\n        \"username\": \"admin\",\n        \"passwordHash\": \"7FCF4BA391C48784EDDE599889D6E3F1E47A27DB36ECC050CC92F259BFAC38AFAD2C68A1AE804D77075E8FB722503F3ECA2B2C1006EE6F6C7B7628CB45FFFD1D\",\n        \"name\": \"0\",\n        \"surname\": \"0\"\n    },\n    {\n        \"adminId\": 8,\n        \"username\": \"admin5\",\n        \"passwordHash\": \"7FCF4BA391C48784EDDE599889D6E3F1E47A27DB36ECC050CC92F259BFAC38AFAD2C68A1AE804D77075E8FB722503F3ECA2B2C1006EE6F6C7B7628CB45FFFD1D\",\n        \"name\": \"0\",\n        \"surname\": \"0\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Get a single admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/admin/1/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								"1",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get a single admin",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 16:07:42 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								}
+							],
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Get a single admin",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "98"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"62-fkNiMv/n/nhOaTvrnsfS3f2ibKQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 15:08:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"adminId\": 1,\n    \"username\": \"admin1\",\n    \"passwordHash\": \"hrsgrsrrxthccy\",\n    \"name\": \"Milan\",\n    \"surname\": \"Mitic\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Get a single non-existing admin",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/admin/670/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								"670",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Get a single non-existing admin",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/670/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"670",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 15:08:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								}
+							],
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Get a single non-existing admin",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/admin/670/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"670",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 18:06:56 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Add new admin",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\": \"pperic\",\n\t\"password\": \"nekaTajnaLozinka!\"\n\t\n\t\n\t\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/admin/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Add new admin-failed",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\": \"pperic\",\n\t\"password\": \"nekaTajnaLozinka!\"\n\t\n\t\n\t\n\t\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "52"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"34-rlKccw1E+/fV8niQk4oFitDfPro\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 17:00:52 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 500,\n    \"message\": \"Internal server error\"\n}"
+						},
+						{
+							"name": "Add new admin - error - username taken",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\": \"pperic\",\n\t\"password\": \"nekaTajnaLozinka!\"\n\t\n\t\n\t\n\t\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "51"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33-QiVX46wlHiVooTZqHRGIY3bDI/8\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 17:32:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"errorCode\": -1001,\n    \"message\": null\n}"
+						},
+						{
+							"name": "Add new admin",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\": \"pperic\",\n\t\"password\": \"nekaTajnaLozinka!\"\n\t\n\t\n\t\n\t\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "179"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b3-qIiD2b+K7K9k+aNFKwWJOhWB+mA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 15:09:02 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"username\": \"pperic\",\n    \"passwordHash\": \"A6748CE10B52373F93B31E8F1625B802B9389519F5E54533F9789930E2194C5845C783982F778E4B5D5B27C6459C88479FC9627591EBF051B1F2E6C62B1DBB90\",\n    \"adminId\": 3\n}"
+						}
+					]
+				},
+				{
+					"name": "Edit an existing admin",
+					"request": {
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"password\": \"NekaNovaLozinkaZaOvogAdmina123\"\n\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/admin/1/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								"1",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Edit an existing admin",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"password\": \"NekaNovaLozinkaZaOvogAdmina123\"\n\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "52"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"34-rlKccw1E+/fV8niQk4oFitDfPro\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 17:40:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 500,\n    \"message\": \"Internal server error\"\n}"
+						},
+						{
+							"name": "Edit an existing admin",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"password\": \"NekaNovaLozinkaZaOvogAdmina123\"\n\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "212"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"d4-M1mOwJJXGPXW1VmyAKIqtXQSDj4\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 15:09:35 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"adminId\": 1,\n    \"username\": \"admin1\",\n    \"passwordHash\": \"AF105A1B093BB041911DE15270D9C8F6579973C0BFABA10CF0AE3E176910FE24726227BD25B6B5E01F861A08338CD3620D1145CA177BC1810A6B57D4192EC924\",\n    \"name\": \"Milan\",\n    \"surname\": \"Mitic\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Edit a non-existing admin ",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\n\"password\": \"NoviPassword!!!2\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/admin/670/?Content-type=aplication/json",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								"670",
+								""
+							],
+							"query": [
+								{
+									"key": "Content-type",
+									"value": "aplication/json"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Edit a non-existing admin ",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\n\"password\": \"NoviPassword!!!2\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/670/?Content-type=aplication/json",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"670",
+										""
+									],
+									"query": [
+										{
+											"key": "Content-type",
+											"value": "aplication/json"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "51"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33-qLltB/LHPhIAAHVdWhhaz1/d3Js\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 15:09:55 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"errorCode\": -1002,\n    \"message\": null\n}"
+						},
+						{
+							"name": "Edit a non-existing admin ",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\n\"password\": \"NoviPassword!!!2\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/670/?Content-type=aplication/json",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										"670",
+										""
+									],
+									"query": [
+										{
+											"key": "Content-type",
+											"value": "aplication/json"
+										}
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "51"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"33-qLltB/LHPhIAAHVdWhhaz1/d3Js\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 04 May 2020 17:51:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"error\",\n    \"errorCode\": -1002,\n    \"message\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "add new admin ",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"username\": \"admin\",\n\"password\": \"admin123\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/admin/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"admin",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "add new admin ",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"username\": \"admin\",\n\"password\": \"admin123\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "178"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b2-8PYkqAD1jiW6b25pgfXwe3/kut0\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 09 May 2020 18:38:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"username\": \"admin\",\n    \"passwordHash\": \"7FCF4BA391C48784EDDE599889D6E3F1E47A27DB36ECC050CC92F259BFAC38AFAD2C68A1AE804D77075E8FB722503F3ECA2B2C1006EE6F6C7B7628CB45FFFD1D\",\n    \"adminId\": 5\n}"
+						},
+						{
+							"name": "add new admin ",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"username\": \"admin6\",\n\"password\": \"admin123\"\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/admin/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"admin",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "180"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"b4-pVnb2M3zI1W+vkrZIPbfSn5riqY\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 16:39:12 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"username\": \"admin6\",\n    \"passwordHash\": \"7FCF4BA391C48784EDDE599889D6E3F1E47A27DB36ECC050CC92F259BFAC38AFAD2C68A1AE804D77075E8FB722503F3ECA2B2C1006EE6F6C7B7628CB45FFFD1D\",\n    \"adminId\": 11\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTY0Nzk2MC41NDcsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTA0MzgzNjB9.Dc3fbLoqveybjXvDWdzNKQ2K9TrKJqbCqs8GpiqU1NY",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "25b928ef-1e0c-4987-b5ee-d160c39b6952",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "b0e3ac06-4188-4794-8975-45620348fb55",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Administrator Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"username\": \"admin5\",\n\t\"password\": \"admin123\"\n\t\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/admin/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"admin",
+								"login"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Administrator Login",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"username\": \"admin5\",\n\t\"password\": \"admin123\"\n\t\n}"
+								},
+								"url": {
+									"raw": "http://localhost:3000/auth/admin/login",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"auth",
+										"admin",
+										"login"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "273"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"111-QrXvy7asRZLaHB3S2On4gqGFvjE\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 17 May 2020 11:58:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"adminId\": 8,\n    \"username\": \"admin5\",\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MDkyNjI5MS4zNjcsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1ODk3MTY2OTF9.IIX2MDqk-v65GTC_ZJ5ZlkqlwAa7ET9EbkIJR7Z-ZLQ\"\n}"
+						}
+					]
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "Upload product photo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Upload product photo",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "photo",
+											"type": "file",
+											"src": "/C:/Users/Milijana/Desktop/Projekat/storage/photos/slika-mleko.jpg"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/product/2/uploadPhoto/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										"2",
+										"uploadPhoto",
+										""
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "94"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5e-BnApdl3WEu8tWQct8gPiXyik7aM\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 24 May 2020 15:03:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"productId\": 2,\n    \"imagePath\": \"2020524-7537411282-slika-mleko.jpg\",\n    \"photoId\": 3,\n    \"description\": \"0\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Edit product",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Marmelada\",\n  \"categoryId\": \"3\",\n  \"description\": \"neka marmelada\",\n  \"price\": \"201.00\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/product/2/",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"product",
+								"2",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Edit product",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Marmelada\",\n  \"categoryId\": \"3\",\n  \"description\": \"neka marmelada\",\n  \"price\": \"201.00\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/product/2/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										"2",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "plain",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 22 May 2020 21:16:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								},
+								{
+									"key": "Content-Length",
+									"value": "0"
+								}
+							],
+							"cookie": [],
+							"body": null
+						},
+						{
+							"name": "Edit product",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n  \"name\": \"Marmelada\",\n  \"categoryId\": \"3\",\n  \"description\": \"neka marmelada\",\n  \"price\": \"201.00\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/product/2/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										"2",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1387"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"56b-aGSVsMzEcuaH8QW8+kGd+QwYksY\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 15:35:37 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"productId\": 2,\n    \"name\": \"Marmelada\",\n    \"description\": \"neka marmelada\",\n    \"categoryId\": 3,\n    \"category\": {\n        \"categoryId\": 3,\n        \"name\": \"Mleko\",\n        \"imagePath\": \"assets/mleko.jpg\",\n        \"parentCategoryId\": 5\n    },\n    \"productPrices\": [\n        {\n            \"productPriceId\": 1,\n            \"price\": \"100.00\",\n            \"createdAt\": \"2020-05-22T17:22:13.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 4,\n            \"price\": \"250.00\",\n            \"createdAt\": \"2020-05-22T17:25:00.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 6,\n            \"price\": \"1000000.00\",\n            \"createdAt\": \"2020-05-22T18:36:14.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 9,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:04:27.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 10,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:10:08.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 11,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:10:33.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 12,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:15:23.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 13,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:19:43.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 14,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:19:52.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 15,\n            \"price\": \"0.00\",\n            \"createdAt\": \"2020-05-22T20:21:53.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 16,\n            \"price\": \"201.00\",\n            \"createdAt\": \"2020-05-22T20:27:58.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 17,\n            \"price\": \"201.00\",\n            \"createdAt\": \"2020-05-22T20:28:58.000Z\",\n            \"productId\": 2\n        },\n        {\n            \"productPriceId\": 18,\n            \"price\": \"201.00\",\n            \"createdAt\": \"2020-05-22T21:02:47.000Z\",\n            \"productId\": 2\n        }\n    ],\n    \"photos\": []\n}"
+						}
+					]
+				},
+				{
+					"name": "Add a single product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single product",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/product/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "306"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"132-kz3Vm3EzayBRUG6oZ4iAr4FLt5k\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:07:19 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"productId\": 1,\n    \"name\": \"Jogurt\",\n    \"description\": \"mlecni\",\n    \"categoryId\": 5,\n    \"category\": {\n        \"categoryId\": 5,\n        \"name\": \"Mlecniproizvodi\",\n        \"imagePath\": \"assets/mlecniproizvodi.jpg\",\n        \"parentCategoryId\": 1\n    },\n    \"photos\": [],\n    \"productPrices\": [\n        {\n            \"productPriceId\": 2,\n            \"price\": \"1000.00\",\n            \"createdAt\": \"2020-05-22T17:41:00.000Z\",\n            \"productId\": 1\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Get all products",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Get all products",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/product/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1696"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"6a0-Gxie/6Z2Qd76kex+GMXUN5zxOsM\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 16:51:18 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"productId\": 1,\n        \"name\": \"Jogurt\",\n        \"description\": \"mlecni\",\n        \"categoryId\": 5,\n        \"category\": {\n            \"categoryId\": 5,\n            \"name\": \"Mlecniproizvodi\",\n            \"imagePath\": \"assets/mlecniproizvodi.jpg\",\n            \"parentCategoryId\": 1\n        },\n        \"photos\": [],\n        \"productPrices\": [\n            {\n                \"productPriceId\": 2,\n                \"price\": \"1000.00\",\n                \"createdAt\": \"2020-05-22T17:41:00.000Z\",\n                \"productId\": 1\n            }\n        ]\n    },\n    {\n        \"productId\": 2,\n        \"name\": \"Marmelada\",\n        \"description\": \"neka marmelada\",\n        \"categoryId\": 3,\n        \"category\": {\n            \"categoryId\": 3,\n            \"name\": \"Mleko\",\n            \"imagePath\": \"assets/mleko.jpg\",\n            \"parentCategoryId\": 5\n        },\n        \"photos\": [],\n        \"productPrices\": [\n            {\n                \"productPriceId\": 1,\n                \"price\": \"100.00\",\n                \"createdAt\": \"2020-05-22T17:22:13.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 4,\n                \"price\": \"250.00\",\n                \"createdAt\": \"2020-05-22T17:25:00.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 6,\n                \"price\": \"1000000.00\",\n                \"createdAt\": \"2020-05-22T18:36:14.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 9,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:04:27.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 10,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:10:08.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 11,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:10:33.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 12,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:15:23.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 13,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:19:43.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 14,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:19:52.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 15,\n                \"price\": \"0.00\",\n                \"createdAt\": \"2020-05-22T20:21:53.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 16,\n                \"price\": \"201.00\",\n                \"createdAt\": \"2020-05-22T20:27:58.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 17,\n                \"price\": \"201.00\",\n                \"createdAt\": \"2020-05-22T20:28:58.000Z\",\n                \"productId\": 2\n            },\n            {\n                \"productPriceId\": 18,\n                \"price\": \"201.00\",\n                \"createdAt\": \"2020-05-22T21:02:47.000Z\",\n                \"productId\": 2\n            }\n        ]\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Create product",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Create product",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\"name\": \"Proizvod 1\",\n\"categoryId\": \"1\",\n\"description\": \"neki opis\",\n\"price\": \"10.05\"\n\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/product/create",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										"create"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "298"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"12a-yiA4V+CM2QhqcKHlcMNGb3yaXgA\""
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 24 May 2020 11:32:39 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"productId\": 14,\n    \"name\": \"Proizvod 1\",\n    \"description\": \"neki opis\",\n    \"categoryId\": 1,\n    \"category\": {\n        \"categoryId\": 1,\n        \"name\": \"Hrana\",\n        \"imagePath\": \"assets/hrana.jpeg\",\n        \"parentCategoryId\": null\n    },\n    \"productPrices\": [\n        {\n            \"productPriceId\": 19,\n            \"price\": \"10.05\",\n            \"createdAt\": \"2020-05-24T11:32:38.000Z\",\n            \"productId\": 14\n        }\n    ],\n    \"photos\": []\n}"
+						}
+					]
+				},
+				{
+					"name": "Delete product photo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Delete product photo",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/product/1/deletePhoto/2\n",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"product",
+										"1",
+										"deletePhoto",
+										"2\n"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "60"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"3c-Q26RqCz+c6/EysRdjQ0jCBs+2c4\""
+								},
+								{
+									"key": "Date",
+									"value": "Mon, 25 May 2020 20:31:48 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"status\": \"ok\",\n    \"errorCode\": 0,\n    \"message\": \"One photo deleted!\"\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTY0Nzk2MC41NDcsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTA0MzgzNjB9.Dc3fbLoqveybjXvDWdzNKQ2K9TrKJqbCqs8GpiqU1NY",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "b8ea3e52-2b98-4b44-bf41-920dd6322a1f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "2d6943a9-928f-480d-9cd7-929f28eb297f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Category",
+			"item": [
+				{
+					"name": "Testing category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Testing category- dodavanje kategorije",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"name\": \"asdf2\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/category/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"category",
+										""
+									]
+								}
+							},
+							"status": "Internal Server Error",
+							"code": 500,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "52"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"34-rlKccw1E+/fV8niQk4oFitDfPro\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 17:11:41 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 500,\n    \"message\": \"Internal server error\"\n}"
+						},
+						{
+							"name": "Testing category",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/category",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"category"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1245"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4dd-pbaHdbas1HKCxueCllry7hc2DhE\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 17:05:46 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"categoryId\": 1,\n        \"name\": \"Hrana\",\n        \"imagePath\": \"assets/hrana.jpeg\",\n        \"parentCategoryId\": null,\n        \"categories\": [\n            {\n                \"categoryId\": 5,\n                \"name\": \"Mlecniproizvodi\",\n                \"imagePath\": \"assets/mlecniproizvodi.jpg\",\n                \"parentCategoryId\": 1\n            }\n        ],\n        \"products\": []\n    },\n    {\n        \"categoryId\": 3,\n        \"name\": \"Mleko\",\n        \"imagePath\": \"assets/mleko.jpg\",\n        \"parentCategoryId\": 5,\n        \"categories\": [],\n        \"products\": [\n            {\n                \"productId\": 2,\n                \"name\": \"Marmelada\",\n                \"description\": \"neka marmelada\",\n                \"categoryId\": 3\n            }\n        ]\n    },\n    {\n        \"categoryId\": 4,\n        \"name\": \"Pavlaka\",\n        \"imagePath\": \"assets/pavlaka.jpg\",\n        \"parentCategoryId\": 5,\n        \"categories\": [],\n        \"products\": []\n    },\n    {\n        \"categoryId\": 5,\n        \"name\": \"Mlecniproizvodi\",\n        \"imagePath\": \"assets/mlecniproizvodi.jpg\",\n        \"parentCategoryId\": 1,\n        \"categories\": [\n            {\n                \"categoryId\": 3,\n                \"name\": \"Mleko\",\n                \"imagePath\": \"assets/mleko.jpg\",\n                \"parentCategoryId\": 5\n            },\n            {\n                \"categoryId\": 4,\n                \"name\": \"Pavlaka\",\n                \"imagePath\": \"assets/pavlaka.jpg\",\n                \"parentCategoryId\": 5\n            }\n        ],\n        \"products\": [\n            {\n                \"productId\": 1,\n                \"name\": \"Jogurt\",\n                \"description\": \"mlecni\",\n                \"categoryId\": 5\n            }\n        ]\n    },\n    {\n        \"categoryId\": 6,\n        \"name\": \"Hemija \",\n        \"imagePath\": \"assets/hemija.jpg\",\n        \"parentCategoryId\": null,\n        \"categories\": [\n            {\n                \"categoryId\": 7,\n                \"name\": \"Detrdzenti\",\n                \"imagePath\": \"assets/detrdzenti.jpg\",\n                \"parentCategoryId\": 6\n            }\n        ],\n        \"products\": []\n    },\n    {\n        \"categoryId\": 7,\n        \"name\": \"Detrdzenti\",\n        \"imagePath\": \"assets/detrdzenti.jpg\",\n        \"parentCategoryId\": 6,\n        \"categories\": [],\n        \"products\": []\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add a single category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single category",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/category/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"category",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "297"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"129-p3NkwXzd/r68agGf6yi15nHBv/8\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:11:55 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"categoryId\": 1,\n    \"name\": \"Hrana\",\n    \"imagePath\": \"assets/hrana.jpeg\",\n    \"parentCategoryId\": null,\n    \"categories\": [\n        {\n            \"categoryId\": 5,\n            \"name\": \"Mlecniproizvodi\",\n            \"imagePath\": \"assets/mlecniproizvodi.jpg\",\n            \"parentCategoryId\": 1\n        }\n    ],\n    \"products\": [\n        {\n            \"productId\": 14,\n            \"name\": \"Proizvod 1\",\n            \"description\": \"neki opis\",\n            \"categoryId\": 1\n        }\n    ]\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTQ1NzcxMi4zNDYsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTAyNDgxMTJ9.67Z6pVC0g5GqaEj3b-EWVH1Iq30hPH9nLt6Sb9dSo48",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "dc8781bc-c152-452d-ad9b-6d7653618af0",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "84f1ba97-59cf-44a6-a7e1-3d170e4efcb6",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "ProductPrice",
+			"item": [
+				{
+					"name": "Get all product price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Get all product price- neuspesno",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/productPrice/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"productPrice",
+										""
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "81"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"51-E+MIh2yEFW6ec1OQ9IWydCBCwfs\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 17:32:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"statusCode\": 400,\n    \"message\": \"Empty data. Nothing to save.\",\n    \"error\": \"Bad Request\"\n}"
+						},
+						{
+							"name": "Get all product price",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/productPrice",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"productPrice"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "1275"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"4fb-fFemME4NqYqD6aJkurB5n7SOryU\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 18:11:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"productPriceId\": 1,\n        \"price\": \"100.00\",\n        \"createdAt\": \"2020-05-22T17:22:13.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 2,\n        \"price\": \"1000.00\",\n        \"createdAt\": \"2020-05-22T17:41:00.000Z\",\n        \"productId\": 1\n    },\n    {\n        \"productPriceId\": 4,\n        \"price\": \"250.00\",\n        \"createdAt\": \"2020-05-22T17:25:00.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 6,\n        \"price\": \"1000000.00\",\n        \"createdAt\": \"2020-05-22T18:36:14.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 9,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:04:27.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 10,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:10:08.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 11,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:10:33.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 12,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:15:23.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 13,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:19:43.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 14,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:19:52.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 15,\n        \"price\": \"0.00\",\n        \"createdAt\": \"2020-05-22T20:21:53.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 16,\n        \"price\": \"201.00\",\n        \"createdAt\": \"2020-05-22T20:27:58.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 17,\n        \"price\": \"201.00\",\n        \"createdAt\": \"2020-05-22T20:28:58.000Z\",\n        \"productId\": 2\n    },\n    {\n        \"productPriceId\": 18,\n        \"price\": \"201.00\",\n        \"createdAt\": \"2020-05-22T21:02:47.000Z\",\n        \"productId\": 2\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add a single product price",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single product price",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/productPrice/6/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"productPrice",
+										"6",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "94"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5e-wkaY1jPPl+XcchY1T00o9GZzVwc\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:17:01 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"productPriceId\": 6,\n    \"price\": \"1000000.00\",\n    \"createdAt\": \"2020-05-22T18:36:14.000Z\",\n    \"productId\": 2\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTQ1NzcxMi4zNDYsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTAyNDgxMTJ9.67Z6pVC0g5GqaEj3b-EWVH1Iq30hPH9nLt6Sb9dSo48",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ce2d38c5-4bcc-4c52-9d3c-bb92cff801ef",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "de587782-7ef0-447e-9b3b-0641da58c70f",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "News",
+			"item": [
+				{
+					"name": "Get all news",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Get all news",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/news/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"news",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "134"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"86-o/1db/BY7AjWTeR6Ipd4q11/1LU\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 18:10:53 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"newsId\": 1,\n        \"caption\": 1,\n        \"text\": \"mleko moja kravica\",\n        \"picture\": \"C:\\\\Users\\\\Milijana\\\\Desktop\\\\Projekat\\\\storage\\\\photos\",\n        \"adminId\": 1\n    }\n]"
+						},
+						{
+							"name": "Get all news",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/news/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"news",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "2"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"2-l9Fw4VUO7kr8CvBlt4zaMCqXZ0w\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 17:36:35 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[]"
+						}
+					]
+				},
+				{
+					"name": "Add a single news",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single news",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/news/3/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"news",
+										"3",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "99"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"63-BItsioyXjMlOKG3ZINz9ezoz20Q\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:18:11 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"newsId\": 3,\n    \"caption\": 1,\n    \"text\": \"kugciu\",\n    \"picture\": \"2020524-7537411282-slika-mleko.jpg\",\n    \"adminId\": 1\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTQ1NzcxMi4zNDYsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTAyNDgxMTJ9.67Z6pVC0g5GqaEj3b-EWVH1Iq30hPH9nLt6Sb9dSo48",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "ad6b6985-b0c4-473b-b23a-d3c924f42ece",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "ba4717fd-b21a-434f-947c-d19a6aa4bb8d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Photo",
+			"item": [
+				{
+					"name": "Get photos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Get photos",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/photo/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"photo",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "127"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"7f-OP4P0ly0TbLjzRlTDzTZ8P8CkDo\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 17:46:07 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"photoId\": 2,\n        \"description\": \"Slika mleko\",\n        \"imagePath\": \"C:\\\\Users\\\\Milijana\\\\Desktop\\\\Projekat\\\\storage\\\\photos\",\n        \"productId\": 1\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add a single photo",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single photo",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/photo/3/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"photo",
+										"3",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "94"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"5e-kN+GWSaRTHVk6EH+L27VKxLRgaQ\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:19:06 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"photoId\": 3,\n    \"description\": \"0\",\n    \"imagePath\": \"2020524-7537411282-slika-mleko.jpg\",\n    \"productId\": 2\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTQ1NzcxMi4zNDYsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTAyNDgxMTJ9.67Z6pVC0g5GqaEj3b-EWVH1Iq30hPH9nLt6Sb9dSo48",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "1427b905-1b79-40bc-aa5a-57d559fd45d7",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "829fd353-0dbb-4fcc-85e1-589d4275bca4",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Inbox",
+			"item": [
+				{
+					"name": "Get inbox",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Get inbox",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/inbox",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"inbox"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "174"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"ae-iS0XZ7GTiI+aAgmSPTII8d1wIso\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 18:08:59 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"inboxId\": 1,\n        \"name\": \"poruka1\",\n        \"mail\": \"neki tekst\",\n        \"message\": \"Neki malo duzi tekst\"\n    },\n    {\n        \"inboxId\": 2,\n        \"name\": \"poruka2\",\n        \"mail\": \"neka druga poruka\",\n        \"message\": \"Neki dugacak tekst\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add a single message in inbox",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single message in inbox",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/inbox/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"inbox",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "83"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"53-fzi6sfuynaLiWKTqr0PqRb5YqzY\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:20:02 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"inboxId\": 1,\n    \"name\": \"poruka1\",\n    \"mail\": \"neki tekst\",\n    \"message\": \"Neki malo duzi tekst\"\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTQ1NzcxMi4zNDYsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTAyNDgxMTJ9.67Z6pVC0g5GqaEj3b-EWVH1Iq30hPH9nLt6Sb9dSo48",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "50bf2b49-36b7-44a5-9f4f-1b23d46b254a",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "a7911013-bec9-4be4-b272-dc19a0d08490",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Gallery",
+			"item": [
+				{
+					"name": "Get gallery",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Get gallery",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/gallery",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"gallery"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "156"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"9c-0IGWPj1/82QBhSfcn9HrgEP9+m4\""
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 23 May 2020 18:07:08 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"galleryId\": 1,\n        \"imagePath\": \"C:\\\\Users\\\\Milijana\\\\Desktop\\\\Projekat\\\\storage\\\\photos\",\n        \"description\": \"Slika mleka\",\n        \"isVisible\": {\n            \"type\": \"Buffer\",\n            \"data\": [\n                1\n            ]\n        }\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Add a single gallery",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": ""
+						}
+					},
+					"response": [
+						{
+							"name": "Add a single gallery",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/gallery/1/",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"gallery",
+										"1",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "X-Powered-By",
+									"value": "Express"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=utf-8"
+								},
+								{
+									"key": "Content-Length",
+									"value": "154"
+								},
+								{
+									"key": "ETag",
+									"value": "W/\"9a-aUer0cPEZIYdxOpIiX47xbUTTak\""
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 27 May 2020 20:22:54 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"galleryId\": 1,\n    \"imagePath\": \"C:\\\\Users\\\\Milijana\\\\Desktop\\\\Projekat\\\\storage\\\\photos\",\n    \"description\": \"Slika mleka\",\n    \"isVisible\": {\n        \"type\": \"Buffer\",\n        \"data\": [\n            1\n        ]\n    }\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "bearer",
+				"bearer": [
+					{
+						"key": "token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbklkIjo4LCJ1c2VybmFtZSI6ImFkbWluNSIsImV4cCI6MTU5MTQ1NzcxMi4zNDYsImlwIjoiOjoxIiwidWEiOiJQb3N0bWFuUnVudGltZS83LjI0LjEiLCJpYXQiOjE1OTAyNDgxMTJ9.67Z6pVC0g5GqaEj3b-EWVH1Iq30hPH9nLt6Sb9dSo48",
+						"type": "string"
+					}
+				]
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d6b1db12-2bc7-40e4-bb55-ffac762fb8a6",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "ab7927cb-48a1-45b1-bf1b-b3447e538e7b",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "aaf605d0-a132-4263-8202-cd03a7fc4e79",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4e8677e0-386b-4c03-ac17-bc80bf10c415",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
